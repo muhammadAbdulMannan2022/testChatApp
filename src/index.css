@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* for hiding scroll bar */
+body,
+#root {
+  scrollbar-width: none;
+  -webkit-scrollbar-width: none;
+  scrollbar-color: transparent;
+  -webkit-scrollbar-color: transparent;
+  -moz-appearance: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #aaa;
+  border-radius: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #eee;
+  border-radius: 0.5em;
+}
